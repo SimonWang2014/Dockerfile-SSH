@@ -1,2 +1,4 @@
 # Dockerfile-SSH
-This is a Dockerfile to build a SSH bash image
+这是用于构建SSH基础镜像的Dockerfile
+
+root登陆的密码：xxx

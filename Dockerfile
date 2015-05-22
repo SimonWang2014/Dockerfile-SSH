@@ -7,7 +7,7 @@ MAINTAINER wangh <wanghui94@live.com>
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir -p /var/run/sshd
 # 用户名，密码
-RUN echo 'root:xxx' | chpasswd
+RUN echo 'root:12345' | chpasswd
 RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
 # 取消pam的限制，否则用户登录后就被踢出

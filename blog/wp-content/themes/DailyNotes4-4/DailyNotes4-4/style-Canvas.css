@@ -1,0 +1,17 @@
+body { background: url(images/canvas/bg.jpg) #f6f6f6; }
+#wrapper1 { background: url(images/canvas/bg-2.jpg) no-repeat top center; }
+.nav  li a {color: #c0b790; text-shadow: 1px 1px 0px #fff; }
+.nav li a:hover, .nav .current_page { color: #98906b; }	
+.nav li ul li a {  color: #7f7f7f; text-shadow: 1px 1px 0px #fff; }
+.nav li ul li a:hover { color: #616060; }			
+.post {background: url(images/canvas/shadow-small.jpg) no-repeat bottom; }
+.post_info {background: url(images/canvas/post-info.gif) no-repeat top left;  }
+.main_post_top { background-image: url(images/canvas/big-post-top.gif); }
+.main_post_top2 { background-image: url(images/canvas/big-post-top2.gif); }
+.main_post_bottom { background-image: url(images/canvas/big-post-bottom.gif); }
+#footer { color: #c0b790; text-shadow: 1px 1px 0px #ff;  }
+#footer a { color: #98906b; }
+#footer a:hover { color: #98906b; }
+#search-form {background-image: url(images/canvas/search-bg.png); }
+.post_top {background-image: url(images/canvas/post-top.gif); }
+.post_bottom { background-image: url(images/canvas/post-bg-bottom.gif); }

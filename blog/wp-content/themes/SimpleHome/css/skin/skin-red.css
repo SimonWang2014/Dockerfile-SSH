@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* 西瓜红 */
+.left {background: #e84c3d;}
+.custom-bgcolor {background: #fb6362;}
+.search input[type=submit] {background-color: #e84c3d;}
+.search input[type=submit]:hover {background-color: #b54645;}
+.to-top {background: #e84c3d;}
+.to-top:hover {background:#b54645;}
+.readmore {background: #fb6362;}
+.readmore:active {background: #b54645;}
+.readmore:hover {background: #b54645;}
+#categories {background:  #b54645;}
+.circle-loading {border: 2px solid #b54645;	border-bottom: 2px solid transparent;}
+.loading {background: #b54645;}
+.tagcloud a:hover{background: #e84c3d;}
+.article>h1, .comments>h1 {border-left: 5px solid #e84c3d;}
+.article>h1:hover {color:#e84c3d;}
+.article-copyright .fa {color: #e84c3d;}
+.article .content pre:before {background: #e84c3d;}
+.children .current-cat {background: #e84c3d;}
+.category-list a:hover, .category-list .current-cat a {border-left: 3px solid #e84c3d;}
+.pagenavi span, .pagenavi a:hover {background: #e84c3d;}
+.widget .menu li a:hover{background: #e84c3d;}
+.aside-info {background:  #fb6362;}
+/* hover */
+.article .content p a{
+	color: #e84c3d ;
+}
+.article h1>a:hover {color: #e84c3d;}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #e84c3d;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}

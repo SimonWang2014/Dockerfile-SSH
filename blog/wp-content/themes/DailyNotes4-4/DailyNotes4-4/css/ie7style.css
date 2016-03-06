@@ -1,0 +1,5 @@
+#next2 { position: relative;  top: 197px; }
+#previous2 { position: relative;  top: 197px;}
+.previous { z-index: 1000; top: 170px; }
+#posts .post div div.overflow { height: 138px; }
+.quote { line-height: 17px; }

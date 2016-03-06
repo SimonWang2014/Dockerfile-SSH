@@ -1,0 +1,8 @@
+#next2 { position: relative;  top: 197px; }
+#previous2 { position: relative;  top: 197px;}
+li.depth-1 .comment-wrap { width: 550px; }
+li.depth-2 .comment-wrap { width: 480px; }
+li.depth-3 .comment-wrap { width: 410px; }
+li.depth-4 .comment-wrap { width: 340px; }
+#posts .post div div.overflow { height: 138px; }
+.quote { line-height: 17px; }

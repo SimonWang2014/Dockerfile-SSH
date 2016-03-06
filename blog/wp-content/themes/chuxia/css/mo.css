@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'mo'; 
+  src: url('../font/mo.eot'); /* IE9*/
+  src: url('../font/mo.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/mo.woff') format('woff'), /* chrome、firefox */
+       url('../font/mo.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+       url('../font/mo.svg#mo') format('svg'); /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'mo';
+    src: url('../font/mo.svg#mo') format('svg');
+  }
+}
+
+.mo {
+  font: normal normal normal 14px/1em mo;
+  font-size: inherit;
+  text-rendering: auto;
+  text-align: center;
+  text-transform: none;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+.mo-r { 
+  font: normal normal normal 14px/1em mo;
+  text-decoration: inherit;
+  text-align: center;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  width: 1em;
+}
+
+[class^="mo-"]:before, [class*=" mo-"]:before {
+  font-family: "mo";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  /* font-size: 120%; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.mo-heart:before { content: '\e800'; }
+.mo-down:before { content: '\e801'; }
+.mo-angle-double-up:before { content: '\e802'; }
+.mo-angle-double-down:before { content: '\e803'; }
+.mo-pencil:before { content: '\e804'; }
+.mo-up-big:before { content: '\e805'; }
+.mo-search:before { content: '\e806'; }
+.mo-user:before { content: '\e807'; }
+.mo-cancel-circled-outline:before { content: '\e808'; }
+.mo-user-1:before { content: '\e809'; }
+.mo-doc:before { content: '\e80a'; }
+.mo-home:before { content: '\e80b'; }
+.mo-left:before { content: '\e80c'; }
+.mo-login:before { content: '\e80d'; }
+.mo-logout:before { content: '\e80e'; }
+.mo-menu:before { content: '\e80f'; }
+.mo-right:before { content: '\e810'; }
+.mo-up:before { content: '\e811'; }
+.mo-volume-up:before { content: '\e812'; }
+.mo-doc-inv:before { content: '\e813'; }
+.mo-megaphone:before { content: '\e814'; }
+.mo-toggle-off:before { content: '\e815'; }
+.mo-toggle-on:before { content: '\e816'; }
+.mo-forward:before { content: '\e817'; }
+.mo-backward:before { content: '\e818'; }
+.mo-play:before { content: '\e819'; }
+.mo-stop:before { content: '\e81a'; }
+.mo-pause:before { content: '\e81b'; }
+.mo-logout-1:before { content: '\e81c'; }
+.mo-music:before { content: '\e81d'; }
+.mo-arrows-ccw:before { content: '\e81f'; }
+.mo-shuffle:before { content: '\e820'; }
+.mo-cancel-circled:before { content: '\e821'; }

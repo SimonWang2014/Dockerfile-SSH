@@ -1,0 +1,182 @@
+version 4.4 ( Updated: 4-04-2012 )
+- Added No Results message, if no posts are found on index pages
+	* index.php
+- Fixed search form placeholder text
+	* includes/scripts.php
+- Improved shortcodes functionality ( now you can use ET Tabs inside of the ET Learn more block )
+	* epanel/shortcodes/js/et_shortcodes_frontend.js
+	* epanel/shortcodes/shortcodes.css
+
+version 4.3 ( Updated: 3-13-2012 )
+- Added width and height attributes to images, small images stretch to fill the space now
+	* custom_functions.php
+- Deleted Support Docs, replaced it with the link to site documentation
+	* epanel/options_dailynotes.php
+	* includes/functions/installation.php
+- Improved ePanel page select box functionality and compatibility with qTranslate and WPML plugins
+	* epanel/core_functions.php
+	* epanel/options_dailynotes.php
+- Shortcodes improvements
+	* epanel/shortcodes/shortcodes.css
+	* epanel/shortcodes/js/et_shortcodes_frontend.js
+- Improved et_videolink compatibility with iPhone and iPad, you can use videos from these sites now: http://goo.gl/U7Iuj
+	* style.css
+	* page-template-portfolio.php
+	* epanel/page_templates/js/fancybox/jquery.fancybox--1.3.4.pack.js
+
+version 4.2 ( Updated: 1-25-2012 )
+- improved thumbnail resizing system ( epanel/custom_functions.php )
+- fixed simple slider shortcode "slide" effect issue ( epanel/shortcodes/js/et_shortcodes_frontend.js )
+- increased superfish menu delay
+
+version 4.1
+- added comments to pages
+modified files: page.php
+
+version 4.0
+- Updated thumbnail function to clear unused images
+- Updated templates with improved coding structure
+- Fixed sample data images bug
+- Fixed featured slider bugs caused by new jQuery version
+
+version 3.9
+- Updated thumbnail function to better detect root folder. Thumbnails
+  must now be hosted within the same root folder as WordPress. 
+    * epanel/custom_functions.php
+
+version 3.8
+- Removed timthumb due to known vulnerabilities
+    * deleted timthumb.php, cache and temp folders
+    * modified 'epanel/custom_functions.php', 'epanel/options_themename.php'
+
+version 3.7
+- Performed extensive performance and security enhancements. 
+    * All files were updated. 
+
+version 3.6
+- Updated ePanel with various bug fixes
+- Changed lightbox script
+    * all files should be updated
+
+version 3.5 
+-Fixed nav menu padding
+- Fixed lightbox bug
+    * style.css
+    * single.php
+    *includes/entry.php
+
+version 3.4
+- Shortcode bugs fixed
+- Updated the theme with the new Portfolio page template
+- Replaced FancyBox with PrettyPhoto for lightbox effects
+    * epanel/
+    * page-template-portfolio.php
+    * To insure that FancyBox is properly replaced, it is
+      recommended that all files be re-uploaded.
+
+version 3.3
+- Fixed problem with photo's on single posts
+    * single.php
+
+version 3.2
+- Fixed lightbox issue
+    * includes/entry2.php
+
+version 3.1
+- Fixed thumbnail cropping issue
+    * includes/entry2.php
+    * includes/entry.php
+
+version 3.0
+- Fixed 3.1 shortcodes conflict
+    * epanel/shortcodes/shortcodes.php
+
+version 2.9
+- Fixed list display issues
+- Added title to lightbox description
+    * includes/entry2.php
+    * style.css
+
+version 2.8
+- New shortcodes added
+    * epanel/
+- Page templates bugs fixed
+    * style.css
+    * page-contact.php
+- Timthumb updated
+    * timthumb.php
+
+version 2.7
+- Search text removed from search input when clicked
+    * includes/scripts.php
+
+version 2.6
+- Several bugs fixed
+    * header.php
+    * single.php
+    * style.css
+    * includes/entry2.php
+    * includes/scripts.php
+
+version 2.5
+- Theme updated with page templates collection
+
+version 2.4
+- Added shadow images for alternate colorschemes. 
+
+version 2.3
+- ePanel updated with logo/favicon upload features
+- Dummy content import integrated into theme
+    * epanel/
+    * sampledata/sample.xml
+
+version 2.2
+- Fixed problem with thumbnails on photo posts
+    * single.php
+
+version 2.1
+- Image now resize on preview page correctly
+    * epanel/post_thumbnails_dailynotes.php
+
+version 2.0
+- Thumbnails are now removed when no them is designated
+    * /includes/entry2.php
+	* single.php
+	
+version 1.9
+- Added the ElegantThemes Shortcodes Collection
+    * /epanel/
+
+version 1.8
+- Added custom fields to custom post types
+    * includes/functions/custom_posts.php
+
+version 1.7
+- fixed problem with audio player not appaering on homepage
+
+version 1.6
+- fixed problem with "full post" link not showing in IE
+
+version 1.5
+- added categories support to custom post types
+- imrpoved code structure and reduced querries
+
+version 1.4
+- fixed rss issues
+    * includes/functions/custom_posts.php
+
+version 1.3
+- fixed issue with thumbnails not being disabled
+    * single.php
+    * includes/entry2.php
+
+version 1.2
+- fixed problem with thumbnail extending past containing div
+    * single.php
+    * includes/entry2.php
+- removed unused sidebar.php code from the theme
+
+version 1.1
+- Updated all theme files to allow for the create of child themes. 
+- Removed tables from the reset in style.css
+- updated timthumb.php to the latest version

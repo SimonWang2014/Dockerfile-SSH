@@ -1,0 +1,17 @@
+body { background: url(images/stone/bg.jpg) #f6f6f6; }
+#wrapper1 { background: url(images/stone/bg-2.jpg) no-repeat top center; }
+.nav  li a {color: #fff; text-shadow: -1px -1px 0px #000; }
+.nav li a:hover, .nav .current_page { color: #c50000; }	
+.nav li ul li a {  color: #7f7f7f; text-shadow: 1px 1px 0px #fff; }
+.nav li ul li a:hover { color: #616060; }			
+.post {background: url(images/stone/shadow-small.jpg) no-repeat bottom; }
+.post_info {background: url(images/stone/post-info.gif) no-repeat top left;  }
+.main_post_top { background-image: url(images/stone/big-post-top.gif); }
+.main_post_top2 { background-image: url(images/stone/big-post-top2.gif); }
+.main_post_bottom { background-image: url(images/stone/big-post-bottom.gif); }
+#footer { color: #fff; text-shadow: -1px -1px 0px #000;  }
+#footer a { color: #c50000; }
+#footer a:hover { color: #c50000; }
+#search-form {background-image: url(images/stone/search-bg.png); }
+.post_top {background-image: url(images/stone/post-top.gif); }
+.post_bottom { background-image: url(images/stone/post-bg-bottom.gif); }

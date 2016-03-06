@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* 颜色代码示例文件 */
+/* 左边侧栏背景颜色 */
+.left {background: #27ae61;}
+/* 搜索按钮背景颜色及hover颜色 */
+.search input[type=submit] {background-color: #27ae61;}
+.search input[type=submit]:hover {background-color: #e84c3d;}
+/* 返回顶部按钮背景颜色及hover颜色 */
+.to-top {background: #27ae61;}
+.to-top:hover {background:#e84c3d;}
+/* 阅读更多按钮背景颜色及hover颜色 */
+.readmore {background: #58D68D;}
+.readmore:active {background: #27ae61;}
+.readmore:hover {background: #27ae61;}
+/* 进度条及进度圈颜色 */
+.circle-loading {border: 2px solid #e84c3d;	border-bottom: 2px solid transparent;}
+.loading {background: #e84c3d;}
+/* 热门标签hover颜色 */
+.tagcloud a:hover{background: #27ae61;}
+/* 文章标题左侧色块及文字hover颜色 */
+.article>h1 {border-left: 5px solid #27ae61;}
+.article>h1:hover {color:#27ae61;}
+/* 文章内容分享颜色 */
+.article-copyright .fa {color: #27ae61;}
+/* 代码块颜色 */
+.article .content pre:before {background: #27ae61;}
+/* 右侧分类目录颜色 */
+.children .current-cat {background: #27ae61;}
+.category-list a:hover, .category-list .current-cat a {border-left: 3px solid #27ae61;}
+/* 页码颜色 */
+.pagenavi span, .pagenavi a:hover {background: #27ae61;}
+/* 右侧自定义菜单颜色 */
+.widget .menu li a:hover{background: #27ae61;}
+/* 日志底部颜色 */
+.aside-info {background:  #58D68D;}
+/* hover */
+.article .content p a{
+	color: #e84c3d;
+}
+.article h1>a:hover {color: #27ae61;}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #27ae61;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}

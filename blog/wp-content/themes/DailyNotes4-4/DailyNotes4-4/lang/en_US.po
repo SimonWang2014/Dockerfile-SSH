@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DailyNotes 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-02 17:52+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ann <anochka1985@gmail.com>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:20
+#: ../page-blog.php:43
+#: ../single.php:19
+msgid "0 comments"
+msgstr ""
+
+#: ../comments.php:20
+#: ../page-blog.php:43
+#: ../single.php:19
+msgid "1 comment"
+msgstr ""
+
+#: ../comments.php:20
+#: ../page-blog.php:43
+#: ../single.php:19
+msgid "comments"
+msgstr ""
+
+#: ../comments.php:45
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: ../comments.php:67
+msgid "Submit Comment"
+msgstr ""
+
+#: ../comments.php:67
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:67
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../header.php:62
+msgid "Home"
+msgstr ""
+
+#: ../header.php:75
+#: ../page-search.php:29
+msgid "search this site..."
+msgstr ""
+
+#: ../index.php:43
+#: ../page-blog.php:89
+#: ../page-contact.php:123
+#: ../page-gallery.php:71
+#: ../page-login.php:43
+#: ../page-search.php:72
+#: ../page-sitemap.php:59
+#: ../page-template-portfolio.php:146
+#: ../page.php:15
+#: ../single.php:86
+msgid "designed by "
+msgstr ""
+
+#: ../page-blog.php:43
+#: ../single.php:19
+msgid "Posted"
+msgstr ""
+
+#: ../page-blog.php:43
+#: ../single.php:19
+msgid "by"
+msgstr ""
+
+#: ../page-blog.php:43
+#: ../single.php:19
+msgid "on"
+msgstr ""
+
+#: ../page-blog.php:43
+#: ../single.php:19
+msgid "in"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "read more"
+msgstr ""
+
+#: ../page-contact.php:19
+msgid "Make sure you entered the captcha. "
+msgstr ""
+
+#: ../page-contact.php:23
+msgid "You entered the wrong number in captcha. "
+msgstr ""
+
+#: ../page-contact.php:32
+msgid "Make sure you fill all fields. "
+msgstr ""
+
+#: ../page-contact.php:37
+msgid "Invalid Email. "
+msgstr ""
+
+#: ../page-contact.php:58
+msgid "Thanks for contacting us"
+msgstr ""
+
+#: ../page-contact.php:80
+msgid "Name"
+msgstr ""
+
+#: ../page-contact.php:84
+msgid "Email Address"
+msgstr ""
+
+#: ../page-contact.php:88
+msgid "Subject"
+msgstr ""
+
+#: ../page-contact.php:95
+msgid "Captcha: "
+msgstr ""
+
+#: ../page-contact.php:111
+msgid "Reset"
+msgstr ""
+
+#: ../page-contact.php:112
+#: ../page-search.php:60
+msgid "Submit"
+msgstr ""
+
+#: ../page-gallery.php:49
+#: ../page-template-portfolio.php:96
+msgid "Zoom in"
+msgstr ""
+
+#: ../page-gallery.php:50
+#: ../page-template-portfolio.php:97
+msgid "Read more"
+msgstr ""
+
+#: ../page-login.php:28
+msgid "Username"
+msgstr ""
+
+#: ../page-login.php:29
+msgid "Password"
+msgstr ""
+
+#: ../page-login.php:33
+msgid "Not a member?"
+msgstr ""
+
+#: ../page-login.php:33
+msgid "Register today!"
+msgstr ""
+
+#: ../page-search.php:26
+msgid "search this website"
+msgstr ""
+
+#: ../page-search.php:31
+msgid "Posts"
+msgstr ""
+
+#: ../page-search.php:32
+#: ../page-sitemap.php:26
+#: ../single.php:68
+msgid "Pages"
+msgstr ""
+
+#: ../page-search.php:35
+msgid "Select a month"
+msgstr ""
+
+#: ../page-sitemap.php:31
+msgid "Categories"
+msgstr ""
+
+#: ../page-sitemap.php:36
+msgid "Tags"
+msgstr ""
+
+#: ../page-sitemap.php:48
+msgid "Authors"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../single.php:69
+msgid "Edit this page"
+msgstr ""
+
+#: ../includes/entry2.php:32
+msgid "visit url "
+msgstr ""
+
+#: ../includes/entry2.php:34
+msgid "full post "
+msgstr ""
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: ../includes/no-results.php:2
+msgid "No Results Found"
+msgstr ""
+
+#: ../includes/no-results.php:3
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+#: ../includes/functions/comments.php:15
+msgid "Posted on "
+msgstr ""
+
+#: ../includes/functions/comments.php:15
+msgid "(Edit)"
+msgstr ""
+
+#: ../includes/functions/comments.php:19
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/functions/comments.php:25
+msgid "Reply"
+msgstr ""
+

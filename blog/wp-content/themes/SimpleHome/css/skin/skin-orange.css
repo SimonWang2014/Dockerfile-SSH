@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* 橘子橙 */
+.left {background: #F39C11;}
+.search input[type=submit] {background-color: #F39C11;}
+.search input[type=submit]:hover {background-color: #E67F22;}
+.to-top {background: #F39C11;}
+.to-top:hover {background:#E67F22;}
+.readmore {background: #F39C11;}
+.readmore:active {background: #E67F22;}
+.readmore:hover {background: #E67F22;}
+#categories {background: #E67F22;}
+.circle-loading {border: 2px solid #E67F22;	border-bottom: 2px solid transparent;}
+.loading {background: #E67F22;}
+.tagcloud a:hover{background: #F39C11;}
+.article>h1, .comments>h1  {border-left: 5px solid #F39C11;}
+.article>h1:hover {color:#F39C11;}
+.article-copyright .fa {color: #F39C11;}
+.article .content pre:before {background: #F39C11;}
+.children .current-cat {background: #F39C11;}
+.category-list a:hover, .category-list .current-cat a {border-left: 3px solid #F39C11;}
+.pagenavi span, .pagenavi a:hover {background: #F39C11;}
+.widget .menu li a:hover{background: #F39C11;}
+.aside-info {background:  #F39C11;}
+/* hover */
+.article .content p a{
+	color: #F39C11 ;
+}
+.article h1>a:hover {color: #F39C11;}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #F39C11;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}
